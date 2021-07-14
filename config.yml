@@ -1,0 +1,12 @@
+rootdirs:
+  - /root
+regulars:
+  - description: email
+    expression: ^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$
+  - description: idCard
+    expression: ^\d{15}|\d{18}$
+  - description: ip
+    expression: ^(.*)\d+\.\d+\.\d+\.\d+(.*)\n
+search: all
+suffix:
+  - txt
